@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  gratar {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  gratar > column[span-tablet$="+4"],
+  gratar > column[span-tablet="4"] {
+    grid-column-end: span 4;
+    grid-column-start: auto;
+  }
+
+  gratar[columns-tablet="4"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

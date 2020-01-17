@@ -24,30 +24,53 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-up:before {
+  content: "\e906";
+}
+.icon-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+.icon-arrow-up:before,
 .icon-arrow-down:before {
   content: "\e900";
 }
-.icon-arrow-up:before {
-  content: "\e901";
-}
+
 .icon-book:before {
   content: "\e902";
 }
+/* .icon-codetap .path1,
+.icon-codetap .path2,
+.icon-codetap .path3,
+.icon-codetap .path4 {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+} */
+
 .icon-codetap .path1:before {
+  font-style: normal;
+  font-size: 8vw;
   content: "\e903";
-  color: rgb(68, 68, 68);
+  color: #d52027;
 }
 .icon-codetap .path2:before {
+  font-style: normal;
+  font-size: 8vw;
   content: "\e904";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .icon-codetap .path3:before {
+  font-style: normal;
+  font-size: 8vw;
   content: "\e905";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .icon-codetap .path4:before {
+  font-style: normal;
+  font-size: 8vw;
   content: "\e906";
   margin-left: -1em;
   color: rgb(255, 255, 255);
