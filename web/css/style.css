@@ -3,3 +3,5 @@
 @import "test/font.css";
 @import "mobile.css";
 @import "tablet.css";
+@import "desktop.css";
+@import "dark.css";

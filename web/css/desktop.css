@@ -1,0 +1,31 @@
+@media (min-width: 1024px) {
+  gratar {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  gratar[columns-desktop="8"] {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  gratar > column[span-desktop="8"] {
+    grid-column-end: span 8;
+  }
+  a[class^="disc-link_"] [class^="icon-"]:before,
+  .icon-codetap .path1,
+  .icon-codetap .path2,
+  .icon-codetap .path3,
+  .icon-codetap .path4 {
+    font-size: 2.5vw;
+  }
+
+  body {
+    margin: 0 140px;
+  }
+
+  .icon-codetap .path1:before,
+  .icon-codetap .path2:before,
+  .icon-codetap .path3:before,
+  .icon-codetap .path4:before {
+    font-size: 2.8vw;
+  }
+}

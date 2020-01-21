@@ -11,4 +11,23 @@
   gratar[columns-tablet="4"] {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  a[class^="disc-link_"] [class^="icon-"]:before,
+  .icon-codetap .path1,
+  .icon-codetap .path2,
+  .icon-codetap .path3,
+  .icon-codetap .path4 {
+    font-size: 4vw;
+  }
+
+  body {
+    margin: 0 80px;
+  }
+
+  .icon-codetap .path1:before,
+  .icon-codetap .path2:before,
+  .icon-codetap .path3:before,
+  .icon-codetap .path4:before {
+    font-size: 4.5vw;
+  }
 }
